@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Eagle-WBC project page">
+  <meta name="keywords" content="humanoid, whole-body control, robotics">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="67UfzC6BEU_9tM4iEAFvs6B_fERf_0cy8cLsPT0epmM" />
+  <title>Eagle-WBC</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+          integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+          crossorigin="anonymous"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="https://kit.fontawesome.com/2a8b303795.js" crossorigin="anonymous"></script>
+</head>
+<body id="top">
+  <section class="hero is-light">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-10 has-text-centered">
+            <h1 class="title is-1 publication-title">
+                <span style="font-size:2.8rem;">Embodiment-Aware Generalist Specialist Distillation for Unified Humanoid Whole-Body Control</span>
+            </h1>
+            <p class="subtitle is-4 conference-subtitle">ICRA 2026</p>
+            <div class="is-size-5 publication-authors">
+                  <div class="author-list" style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
+                  <span class="author-block"><a href="https://bariona.github.io">Quanquan Peng*</a></span>
+                  <span class="author-block"><a href="https://scholar.google.com/citations?user=0ar3JNYAAAAJ&hl=en">Yunfeng Lin*</a></span>
+                  <span class="author-block"><a href="https://eagle-wbc.github.io">Yufei Xue</a></span>
+                  <span class="author-block"><a href="https://oceanpang.github.io/">Jiangmiao Pang</a></span>
+                  <span class="author-block"><a href="https://wnzhang.net/">Weinan Zhang</a></span>
+                  </div>
+              <div class="author-footnote">* Equal contribution</div>
+              <div class="affiliation-logos">
+                <img src="./resources/sjtu.png" alt="SJTU logo" class="affiliation-logo">
+                <img src="./resources/share-logo.png" alt="SHARE logo" class="affiliation-logo">
+              </div>
+            </div>
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="./resources/EAGLE-WBC.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill="currentColor" d="M6 2h7l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm7 1.5V8h4.5L13 3.5zM8 12h8v2H8v-2zm0 4h8v2H8v-2z"/>
+                      </svg>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2602.02960" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=ql_51KNHsnE" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path fill="currentColor" d="M23.5 6.2c-.3-1.1-1.1-2-2.2-2.3C19.3 3.5 12 3.5 12 3.5s-7.3 0-9.3.4C1.6 4.2.8 5.1.5 6.2.1 8.2.1 12 .1 12s0 3.8.4 5.8c.3 1.1 1.1 2 2.2 2.3 2 .4 9.3.4 9.3.4s7.3 0 9.3-.4c1.1-.3 1.9-1.2 2.2-2.3.4-2 .4-5.8.4-5.8s0-3.8-.4-5.8zM9.8 15.5v-7l6.2 3.5-6.2 3.5z"/>
+                    </svg>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="teaser" class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-two-thirds">
+          <div class="publication-video">
+            <iframe
+              src="https://www.youtube.com/embed/ql_51KNHsnE?rel=0"
+              title="Eagle-WBC Teaser"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="highlights" class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered">Research Highlights</h2>
+      <div class="columns is-multiline">
+        <div class="column is-one-third">
+          <div class="card placeholder-card">
+            <div class="card-content">
+              <p class="title is-4">Embodiment-aware distillation</p>
+              <p class="content">Summarize how a generalist policy adapts to the Eagle robot's hardware profile.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card placeholder-card">
+            <div class="card-content">
+              <p class="title is-4">Whole-body skill palette</p>
+              <p class="content">List the locomotion and manipulation behaviors you plan to showcase.</p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-third">
+          <div class="card placeholder-card">
+            <div class="card-content">
+              <p class="title is-4">Real-world deployment</p>
+              <p class="content">Add field notes, hardware insights, and evaluation metrics once collected.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="abstract" class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered">Abstract</h2>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="placeholder-card">
+            <p>Humanoid whole-body controllers trained with reinforcement learning (RL) have recently achieved remarkable performance, yet many target a single robot embodiment. Variations in dynamics, degrees of freedom (DoFs), and kinematic topology still hinder one policy from commanding diverse humanoids. Moreover, obtaining a generalist controller that not only transfers across embodiments but also supports richer behaviors&mdash;beyond simple walking to squatting or leaning&mdash;remains challenging.</p>
+            <p>We address these obstacles with <strong>EAGLE</strong>, an iterative generalist-specialist distillation framework that yields a single unified policy capable of controlling multiple heterogeneous humanoids without per-robot reward tuning. During each cycle, embodiment-specific specialists are forked from the current generalist, refined on their respective robots, and new skills are distilled back into the generalist by training on the pooled embodiment set. Repeating this loop until convergence produces a robust whole-body controller validated on robots such as Unitree H1, G1, and Fourier N1.</p>
+            <p>We conducted experiments on five different robots in simulation and four in real-world settings. Quantitative evaluations show that <strong>EAGLE</strong> achieves high tracking accuracy and robustness compared to alternative methods, marking a step toward scalable, fleet-level humanoid control.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered">Experiment Results</h2>
+
+      <div class="experiment-section">
+        <div class="section-header">
+          <h3 class="title is-3">Velocity Commands</h3>
+          <p>Different velocity commands for each robot.</p>
+        </div>
+        <div class="columns is-multiline">
+          <div class="column is-half" data-robot="g1">
+            <div class="placeholder-card video-card">
+              <div class="video-card-header">
+                <h4 class="title is-5">G1</h4>
+                <div class="toggle-group">
+                  <button class="button is-small is-info is-light video-toggle active" data-variant="slow">Slow</button>
+                  <button class="button is-small is-info is-light video-toggle" data-variant="fast">Fast</button>
+                </div>
+              </div>
+              <video autoplay muted loop playsinline controls
+                     data-slow="./resources/videos_web/g1_slow.mp4"
+                     data-fast="./resources/videos_web/g1_fast.mp4"
+                     src="./resources/videos_web/g1_slow.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half" data-robot="h1">
+            <div class="placeholder-card video-card">
+              <div class="video-card-header">
+                <h4 class="title is-5">H1</h4>
+                <div class="toggle-group">
+                  <button class="button is-small is-info is-light video-toggle active" data-variant="slow">Slow</button>
+                  <button class="button is-small is-info is-light video-toggle" data-variant="fast">Fast</button>
+                </div>
+              </div>
+              <video autoplay muted loop playsinline controls
+                     data-slow="./resources/videos_web/h1_slow.mp4"
+                     data-fast="./resources/videos_web/h1_fast.mp4"
+                     src="./resources/videos_web/h1_slow.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half" data-robot="n1">
+            <div class="placeholder-card video-card">
+              <div class="video-card-header">
+                <h4 class="title is-5">N1</h4>
+                <div class="toggle-group">
+                  <button class="button is-small is-info is-light video-toggle active" data-variant="slow">Slow</button>
+                  <button class="button is-small is-info is-light video-toggle" data-variant="fast">Fast</button>
+                </div>
+              </div>
+              <video autoplay muted loop playsinline controls
+                     data-slow="./resources/videos_web/n1_slow.mp4"
+                     data-fast="./resources/videos_web/n1_fast.mp4"
+                     src="./resources/videos_web/n1_slow.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half" data-robot="t1">
+            <div class="placeholder-card video-card">
+              <div class="video-card-header">
+                <h4 class="title is-5">T1</h4>
+                <div class="toggle-group">
+                  <button class="button is-small is-info is-light video-toggle active" data-variant="slow">Slow</button>
+                  <button class="button is-small is-info is-light video-toggle" data-variant="fast">Fast</button>
+                </div>
+              </div>
+              <video autoplay muted loop playsinline controls
+                     data-slow="./resources/videos_web/t1_slow.mp4"
+                     data-fast="./resources/videos_web/t1_fast.mp4"
+                     src="./resources/videos_web/t1_slow.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experiment-section">
+        <div class="section-header">
+          <h3 class="title is-3">Height Commands</h3>
+          <p>Demonstrations of height commands across embodiments.</p>
+        </div>
+        <div class="columns is-multiline">
+          <div class="column is-half">
+            <div class="placeholder-card video-card">
+              <h4 class="title is-5">G1</h4>
+              <video autoplay muted loop playsinline controls
+                     src="./resources/videos_web/g1_height.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="placeholder-card video-card">
+              <h4 class="title is-5">H1</h4>
+              <video autoplay muted loop playsinline controls
+                     src="./resources/videos_web/h1_height.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="placeholder-card video-card">
+              <h4 class="title is-5">N1</h4>
+              <video autoplay muted loop playsinline controls
+                     src="./resources/videos_web/n1_height.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="placeholder-card video-card">
+              <h4 class="title is-5">T1</h4>
+              <video autoplay muted loop playsinline controls
+                     src="./resources/videos_web/t1_height.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="experiment-section">
+        <div class="section-header">
+          <h3 class="title is-3">Pitch Commands</h3>
+          <p>Upper-body lean and pitch changes for each embodiment.</p>
+        </div>
+        <div class="columns is-multiline">
+          <div class="column is-half">
+            <div class="placeholder-card video-card">
+              <h4 class="title is-5">G1</h4>
+              <video autoplay muted loop playsinline controls
+                     src="./resources/videos_web/g1_pitch.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="placeholder-card video-card">
+              <h4 class="title is-5">H1</h4>
+              <video autoplay muted loop playsinline controls
+                     src="./resources/videos_web/h1_pitch.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="placeholder-card video-card">
+              <h4 class="title is-5">N1</h4>
+              <video autoplay muted loop playsinline controls
+                     src="./resources/videos_web/n1_pitch.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+          <div class="column is-half">
+            <div class="placeholder-card video-card">
+              <h4 class="title is-5">T1</h4>
+              <video autoplay muted loop playsinline controls
+                     src="./resources/videos_web/t1_pitch.mp4"
+                     class="experiment-video"></video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="method" class="section is-light">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered">Method Overview</h2>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="placeholder-card">
+            <figure class="method-figure">
+              <img src="./resources/method.png" alt="Unified command interface and generalist-specialist distillation diagram">
+              <!-- <figcaption><a href="./resources/method.pdf" target="_blank">Download the high-resolution PDF</a></figcaption> -->
+            </figure>
+            <p><strong>(a) Unified command interface.</strong> The command vector <em>c<sub>t</sub></em> combines task commands <em>v<sub>t</sub></em> (linear velocities <em>v<sub>x</sub>, v<sub>y</sub></em> and angular velocity <em>&omega;</em>) with behavior commands <em>b<sub>t</sub></em> (base height <em>h</em>, body pitch <em>p</em>). Together with a short window of proprioception <em>s<sub>t</sub></em>, they form the observation <em>o<sub>t</sub></em>.</p>
+            <p><strong>(b) Generalist-specialist distillation.</strong> Each round copies the generalist policy <em>&pi;<sub>g</sub></em> to <em>N</em> specialists {<em>&pi;<sub>s<sub>i</sub></sub></em>} for per-robot fine-tuning, then distills back by running <em>&pi;<sub>g</sub></em>, relabeling the actions with the corresponding specialist, and updating with the imitation loss. Repeating this loop yields a single controller that scales across embodiments while retaining rich whole-body commands.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="bibtex" class="section is-light">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered">BibTeX</h2>
+      <div class="columns is-centered">
+        <!-- <div class="column is-two-thirds"> -->
+          <pre class="placeholder-card">
+@misc{peng2026eaglewbc,
+    title={Embodiment-Aware Generalist Specialist Distillation for Unified Humanoid Whole-Body Control}, 
+    author={Quanquan Peng and Yunfeng Lin and Yufei Xue and Jiangmiao Pang and Weinan Zhang},
+    year={2026},
+    eprint={2602.02960},
+    archivePrefix={arXiv},
+    primaryClass={cs.RO},
+    url={https://arxiv.org/abs/2602.02960}, 
+}
+        </pre>
+        <!-- </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- <footer class="footer">
+    <div class="content has-text-centered">
+      <p>Eagle-WBC project page skeleton • Replace the placeholders with your multimedia content and text.</p>
+    </div>
+  </footer> -->
+</body>
+</html>
