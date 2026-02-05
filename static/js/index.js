@@ -70,4 +70,22 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }
+
+  document.querySelectorAll('.youtube-embed').forEach((container) => {
+    container.addEventListener('click', () => {
+      const videoId = container.getAttribute('data-video-id');
+      if (!videoId) {
+        return;
+      }
+      const title = container.getAttribute('data-title') || 'YouTube video';
+      const iframe = document.createElement('iframe');
+      iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+      iframe.title = title;
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+      iframe.setAttribute('frameborder', '0');
+
+      container.replaceWith(iframe);
+    }, { once: true });
+  });
 });
